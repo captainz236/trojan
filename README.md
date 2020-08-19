@@ -1,4 +1,4 @@
-fork A大的trojan 一键脚本
+老版本：fork A大的trojan 一键脚本
 系统要求及脚本介绍 1、系统>=centos7，用centos8最好，内核可直接开启bbr不需升级。
 2、域名解析到VPS并生效。
 3、脚本自动续签https证书
@@ -6,7 +6,7 @@ fork A大的trojan 一键脚本
 一、使用一键脚本安装 curl -O https://raw.githubusercontent.com/atrandys/trojan/master/trojan_centos7.sh && chmod +x trojan_centos7.sh && ./trojan_centos7.sh 另外建议安装bbr，以下脚本安装，不赘述了
 cd /usr/src && wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 
-
+新版本：
 1、连接VPS，执行以下命令
 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/atrandys/trojan/master/trojan_mult.sh)"
